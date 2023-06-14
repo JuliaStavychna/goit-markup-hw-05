@@ -62,6 +62,10 @@ img {
   text-decoration-line: underline;
   text-decoration-color: var(--button-color);
 }
+.nav-list.link.is-active {
+  color: #404bbf;
+  transition: color var(--transition);
+}
 /* Address */
 .address {
   font-style: normal;
@@ -79,6 +83,9 @@ img {
   line-height: 1.5;
   color: var(--text-color);
   text-decoration: none;
+}
+.adress-contact.link {
+  color: var(--transition);
 }
 .address-contact.link:hover,
 .address-contact.link:focus {
