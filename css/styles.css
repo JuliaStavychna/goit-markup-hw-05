@@ -312,8 +312,7 @@ img {
   justify-content: center;
   align-items: center;
   color: #8e8f99;
-  transition: border-color var(--transition);
-  transition: color var(--transition);
+  transition: color var(--transition); border-color var(--transition);
 }
 .customers-link:hover {
   border-color: #404bbf;
@@ -514,6 +513,9 @@ p {
 }
 .address-item {
   padding: 24px 0;
+}
+.adress-contact.linl {
+  transition: color var(--transition);
 }
 /* Hero */
 .hero {
