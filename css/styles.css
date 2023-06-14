@@ -658,6 +658,7 @@ p {
   background: #f4f4fd;
   color: #4d5ae5;
   cursor: pointer;
+  transition: color var(--transition); background-color: var(--transition); border-color: var(--transition); box-shadow: var(--transition);
 }
 .filter-button:hover,
 .filter-button:focus {
@@ -690,15 +691,50 @@ p {
 }
 .project-title {
   margin-bottom: 8px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--basic-color);
 }
 .project-link {
   display: block;
+  transition: box-shadow var(--transition);
 }
 
 .project-link:hover,
 .project-link:focus {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+
+}
+.active-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 40px 32px;
+  transform: translate(0, 100%);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  background-color: #4D5AE5;
+  color: #F4F4FD;
+  transition: transform var(--transition);
+}
+.project-description {
+  margin-bottom: 8px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--basic-color);
+}
+.projects-decription-container {
+  position: relative;
+  overflow: hidden;
 }
 /* Modal */
 .modal {
