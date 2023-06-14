@@ -256,6 +256,7 @@ img {
   height: 40px;
   border-radius: 50%;
   background-color: #4d5ae5;
+  transition: background-color var(--transition);
 }
 
 .team-social-link:hover,
@@ -311,6 +312,8 @@ img {
   justify-content: center;
   align-items: center;
   color: #8e8f99;
+  transition: border-color var(--transition);
+  transition: color var(--transition);
 }
 .customers-link:hover {
   border-color: #404bbf;
