@@ -435,7 +435,6 @@ p {
   height: 100%;
   border: 1px solid #8e8f99;
   border-radius: 4px;
-  display: block;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -703,7 +702,12 @@ p {
   letter-spacing: 0.02em;
   background-color: #4d5ae5;
   color: #f4f4fd;
-  transition: transform var(--transition);
+}
+.project-link:hover .active-text {
+  transform: translateY(0%);
+}
+.project-link:focus .active-text {
+  transform: translateY(0%);
 }
 .project-description {
   margin-bottom: 8px;
