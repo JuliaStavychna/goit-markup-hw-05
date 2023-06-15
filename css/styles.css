@@ -132,10 +132,9 @@ p {
   font-size: 16px;
   line-height: 1.5;
   color: var(--text-color);
+  transition: color var(--transition);
 }
-.adress-contact.link {
-  color: var(--transition);
-}
+
 .address-contact.link:hover,
 .address-contact.link:focus {
   color: var(--button-color);
@@ -764,7 +763,7 @@ p {
   border-radius: 50%;
   transition: background-color var(--transition), border var(--transition);
 }
-.icon-close {
+.close-icon {
   transition: fill var(--transition);
 }
 .modal-close-button:hover,
