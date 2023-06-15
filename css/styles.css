@@ -108,8 +108,6 @@ p {
   color: #2E2F42;
   transition: color var(--transition);
   display: block;
-  padding-top: 24px; 
-  padding-bottom: 24px;
   letter-spacing: 0.02em;
 }
 .nav-list.link:hover,
@@ -138,8 +136,6 @@ p {
   color: var(--text-color);
   transition: color var(--transition);
   display: block;
-  padding-top: 24px; 
-  padding-bottom: 24px;
   letter-spacing: 0.02em;
 }
 
