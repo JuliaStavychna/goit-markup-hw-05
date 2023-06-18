@@ -607,7 +607,7 @@ p {
   letter-spacing: 0.02em;
   color: var(--basic-color);
 }
-.project-description-container {
+.project-description {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -715,7 +715,6 @@ p {
   transform: translateY(0%);
 }
 .project-description {
-  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
