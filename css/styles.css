@@ -137,7 +137,6 @@ p {
   transition: color var(--transition);
   display: block;
   letter-spacing: 0.02em;
-  display: block;
 }
 
 .address-contact.link:hover,
